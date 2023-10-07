@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>TEST</title>
 </head>
@@ -46,35 +48,62 @@
                 <p class="title__text">Raise your ROI with direct advertiser</p>
                 <button class="button title__button">BECOME A PARTNER</button>
             </div>
-            <div class="banner"></div>
+            <div class="banner">
+                <div class="chips">
+                    <div class="chips__row">
+                        <div class="chips__images_1">
+                            <img src="./assets/svg/chips/1_1.svg" alt="">
+                            <img src="./assets/svg/chips/1_2.svg" alt="">
+                            <img src="./assets/svg/chips/1_3.svg" alt="">
+                            <img src="./assets/svg/chips/1_4.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="chips__row">
+                        <div class="chips__images_2">
+                            <img src="./assets/svg/chips/2_1.svg" alt="">
+                            <img src="./assets/svg/chips/2_2.svg" alt="">
+                            <img src="./assets/svg/chips/2_3.svg" alt="">
+                            <img src="./assets/svg/chips/2_4.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="chips__row">
+                        <div class="chips__images_3">
+                            <img src="./assets/svg/chips/3_2.svg" alt="">
+                            <img src="./assets/svg/chips/3_1.svg" alt="">
+                            <img src="./assets/svg/chips/3_3.svg" alt="">
+                            <img src="./assets/svg/chips/3_4.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="blog__block">
                 <h2 class="blog__title">BLOG</h2>
-                <ul class="blog__list">
-                       <li class="blog__item">
+                <ul class="blog__list" data-simplebar>
+                    <li class="blog__item">
                         <a href="#" class="blog__link">
                             <p class="blog__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
                             <time class="blog__date" datetime="2023-02-10">10.02.2023</time>
                         </a>
                     </li>
-                        <li class="blog__item">
+                    <li class="blog__item">
                         <a href="#" class="blog__link">
                             <p class="blog__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
                             <time class="blog__date" datetime="2023-02-10">10.02.2023</time>
                         </a>
                     </li>
-                        <li class="blog__item">
+                    <li class="blog__item">
                         <a href="#" class="blog__link">
                             <p class="blog__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
                             <time class="blog__date" datetime="2023-02-10">10.02.2023</time>
                         </a>
                     </li>
-                     <li class="blog__item">
+                    <li class="blog__item">
                         <a href="#" class="blog__link">
                             <p class="blog__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
                             <time class="blog__date" datetime="2023-02-10">10.02.2023</time>
                         </a>
                     </li>
-                        <li class="blog__item">
+                    <li class="blog__item">
                         <a href="#" class="blog__link">
                             <p class="blog__text">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
                             <time class="blog__date" datetime="2023-02-10">10.02.2023</time>
@@ -83,8 +112,28 @@
                 </ul>
             </div>
         </main>
-        <footer class="footer">cv</footer>
+        <footer class="footer">
+            <nav class="footer__nav">
+                <ul class="footer__nav__list">
+                    <li class="navigation__item"><a class="navigation__link" href="#">Terms & Conditions</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Cookies</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Contacts</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Careers</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Brand Guide</a></li>
+                </ul>
+                </nav>
+                <svg height="32" width="32" fill="#ffffff" ><use xlink:href="./assets/svg/social.svg#twitter"></use></svg>
+                <svg height="32" width="32"><use xlink:href="./assets/svg/social.svg#facebook"></use></svg>
+                <svg height="32" width="32"><use xlink:href="./assets/svg/social.svg#instagram"></use></svg>
+                <svg height="32" width="32"><use xlink:href="./assets/svg/social.svg#linkedin"></use></svg>
+                <svg height="32" width="32"><use xlink:href="./assets/svg/social.svg#youtube"></use></svg>
+                <svg height="32" width="32"><use xlink:href="./assets/svg/social.svg#tiktok"></use></svg>
+                <svg height="32" width="32"><use xlink:href="./assets/svg/social.svg#telegram"></use></svg>
+                <svg height="32" width="32"><use xlink:href="./assets/svg/social.svg#vk"></use></svg>
+
+        </footer>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
